@@ -88,8 +88,14 @@ Response code = 500
 }
 ```
 
-## 6. Development
-
+## 6. Development for Frontend
+* React + TypeScript with [Vite](https://vite.dev/)
+```
+$npm create vite@latest
+$cd frontend
+$npm install
+$npm run dev
+```
 
 ## 7. Testing
 
