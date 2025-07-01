@@ -1,6 +1,9 @@
 # Worshop :: Vibe coding
 
 ## 1. Feature flow
+* [Visualize from text](https://www.napkin.ai/)
+
+```
 1. ผู้ใช้งานทำการกรอกข้อมูลคำถามผ่านหน้า web แสดงเป็น text area
 2. เมื่อทำการ submit form แล้ว จะส่งข้อมูลไปยัง API
 3. ระบบ API มีการทำงานดังนี้
@@ -11,6 +14,7 @@
    3.5 ทำการ execute SQL query ไปยัง database ชื่อว่า my_demo
    3.6 ส่งผลการทำงานกลับไปยัง web
 4. ฝั่ง web รับข้อมูลมาแล้ว ทำการแสดงผล
+```
 
 ## 2. Sequence diagram ของการทำงาน
 * https://excalidraw.com/
