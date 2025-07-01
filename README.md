@@ -59,6 +59,8 @@ sequenceDiagram
 
 
 ## 5. API design
+* [Database design](https://database.build/)
+* [OpenAPI or Swagger](https://swagger.io/)
 ```
 POST /question
 {
