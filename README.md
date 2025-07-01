@@ -91,14 +91,44 @@ Response code = 500
 ## 6. Development for Frontend
 * React + TypeScript with [Vite](https://vite.dev/)
 ```
-$npm create vite@latest
+$npm create vite@latest frontend
 $cd frontend
 $npm install
+```
+
+Install [tailwindcss](https://tailwindcss.com/docs/installation/using-vite)
+```
+$npm install tailwindcss @tailwindcss/vite
+```
+
+Configure the Vite plugin
+* vite.config.ts
+```
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+```
+
+Add to css file
+```
+@import "tailwindcss";
+```
+
+Run
+```
 $npm run dev
 ```
 
-## 7. Testing
+## 7. Development for Backend
 
 
-## 8. Deployment
+
+## 8. Testing
+
+
+## 9. Deployment
 

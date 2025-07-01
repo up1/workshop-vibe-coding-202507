@@ -1,3 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
 
 You are an expert in React, Vite, Tailwind CSS, three.js, React three fiber and Next UI or heroui.
   
@@ -46,15 +51,14 @@ React
   - Always throw user-friendly errors that tanStackQuery can catch and show to the user.
 
 
-## Main Structure
-* Frontend is in `frontend` folder
+## Project Structure of Frontend
+* Working in `frontend` folder
 
-```tree
-.
-
-├── frontend/                  # Main frontend
-   ├── src/
-        ├── components/        # UI components
+```
+.               
+   ├── src/                    # Source code
+        ├── pages/             # Separate by page
+             ├── components/   # UI components per page
         ├── api/               # To Call REST API
         ├── utils/             # Utilities functions
 ```
