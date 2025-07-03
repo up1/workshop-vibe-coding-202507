@@ -1,4 +1,8 @@
 # Worshop :: Vibe coding
+* IDE => Cursor
+* CLI tools
+  * Claude Code
+  * Gemini CLI  
 
 ## 1. Feature flow
 * [Visualize from text](https://www.napkin.ai/)
