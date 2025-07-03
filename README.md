@@ -90,7 +90,6 @@ Response code = 404
 {
     "message": "Data not found in system"
 }
-```
 
 Response code = 500
 {
